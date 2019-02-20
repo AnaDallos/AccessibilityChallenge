@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/reset.css">
+    <title>Accessibility Challenge</title>
+</head>
+<body>
+    <h1>TripHelper</h1>
+    <fieldset>
+        <nav role="navigation" tabindex="0" aria-label="Choose your type of search">
+            <a aria-selected="false" role="tab" aria-label="Find plane tickets" tabindex="0" id="ticket">Tickets</a>
+            <a aria-selected="false" role="tab" aria-label="Find a hotel" tabindex="0" id="hotel">Hotels</a>
+            <a aria-selected="false" role="tab" aria-label="Rent a car" tabindex="0" id="carRental">Car Rent</a>
+            <a aria-selected="false" role="tab" aria-label="Get an insurance" tabindex="0" id="insurance">Insurance</a>
+        </nav>
+    </fieldset>
+
+    <div class="search-content">
+        <!--Injected html here!!-->
+    </div>
+
+    <script src="/js/js.js"></script>
+</body>
+</html>
